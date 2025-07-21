@@ -1,0 +1,34 @@
+{
+  "name": "freelancing-backend",
+  "version": "1.0.0",
+  "description": "Backend server for freelancing platform using Express, Mongoose, and Socket.io",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "socket.io",
+    "freelancing",
+    "backend",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
